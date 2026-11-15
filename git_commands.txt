@@ -1,0 +1,51 @@
+============================================================
+       Git Commands Used in the BookHaven Project
+============================================================
+
+1. git init
+   - Initializes a new Git repository in the current directory.
+   - Creates a hidden .git folder to track version history.
+
+2. git add <file>
+   - Stages specified file(s) into the staging area for the next commit.
+   - Example: git add index.html
+
+3. git commit -m "message"
+   - Records staged snapshot changes into repository history with a description.
+   - Example: git commit -m "Initial commit: add index.html and about.html"
+
+4. git branch -M main
+   - Renames the current branch to "main" as the default project branch.
+
+5. git checkout -b feature
+   - Creates a new branch named "feature" and immediately switches to it.
+
+6. git checkout main
+   - Switches the working directory back to the main branch.
+
+7. git merge feature
+   - Merges the feature branch changes into the current branch.
+
+8. git log --oneline --graph --all
+   - Displays the commit history and branch structure for the repository.
+
+9. git status
+   - Shows modified, staged, and untracked files in the working tree.
+
+10. git revert HEAD --no-edit
+   - Creates a new commit that reverses the last commit without rewriting history.
+
+11. git config user.name "Your Name"
+   - Sets the local Git username used in commit metadata.
+
+12. git config user.email "your.email@example.com"
+   - Sets the local Git email used in commit metadata.
+
+13. git add .gitignore
+   - Stages the ignore rules file for commit.
+
+14. git add temporary.txt
+   - Stages the temporary file before committing it.
+
+15. git revert HEAD --no-edit
+   - Removes the temporary file change cleanly while preserving project history.
